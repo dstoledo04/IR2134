@@ -43,6 +43,193 @@ levels:
       - [0, 1, {distance: [3, 2.2000000000000002]}]
       - [2, 3, {distance: [3, 12]}]
       - [4, 5, {distance: [3, 2.2000000000000002]}]
+    models:
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 947.54499999999996, y: 631.07500000000005, yaw: 0.0027000000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1039.9659999999999, y: 628.274, yaw: 0.014800000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1173.463, y: 635.74199999999996, yaw: -3.1242000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1263.0830000000001, y: 634.80899999999997, yaw: -0.010699999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1397.5129999999999, y: 636.67600000000004, yaw: -0.0115, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1484.3320000000001, y: 632.00800000000004, yaw: -0.0167, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1589.8219999999999, y: 707.625, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1482.4649999999999, y: 723.495, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1393.779, y: 718.82799999999997, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1264.95, y: 723.495, yaw: -0.0063, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1173.463, y: 719.76099999999997, yaw: -0.0089999999999999993, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1038.0989999999999, y: 715.09299999999996, yaw: 0.022700000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 949.41200000000003, y: 721.62800000000004, yaw: -0.0044999999999999997, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 955.01400000000001, y: 1383.51, yaw: 3.1187999999999998, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1042.7670000000001, y: 1386.3099999999999, yaw: 0.022700000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1036.232, y: 1297.624, yaw: -0.0293, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 953.14700000000005, y: 1299.491, yaw: -0.022700000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 955.01400000000001, y: 1214.538, yaw: -0.038300000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 948.47900000000004, y: 1145.4559999999999, yaw: -0.00050000000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 947.54499999999996, y: 1069.8389999999999, yaw: -0.0074999999999999997, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 948.47900000000004, y: 973.68499999999995, yaw: -0.027699999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 948.47900000000004, y: 884.06500000000005, yaw: -0.018700000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 948.47900000000004, y: 795.37800000000004, yaw: -0.020199999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1038.0989999999999, y: 971.81700000000001, yaw: -0.0038, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1034.365, y: 896.20100000000002, yaw: -0.0135, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1038.0989999999999, y: 806.58100000000002, yaw: 0.023599999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1039.0329999999999, y: 1219.2059999999999, yaw: -0.0074000000000000003, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1039.0329999999999, y: 1136.1210000000001, yaw: -0.0028999999999999998, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1037.165, y: 1058.6369999999999, yaw: 0.01, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1173.463, y: 801.91300000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1176.2629999999999, y: 881.26400000000001, yaw: -0.024500000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1178.1300000000001, y: 965.28300000000002, yaw: 3.121, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1179.0640000000001, y: 1047.434, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1181.865, y: 1137.0540000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1179.9970000000001, y: 1223.874, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1180.931, y: 1296.6900000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1179.9970000000001, y: 1383.51, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1266.817, y: 1390.0440000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1265.883, y: 1309.76, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1264.0160000000001, y: 1233.2090000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1263.0830000000001, y: 1143.5889999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1264.95, y: 1060.5039999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1264.95, y: 980.21900000000005, yaw: 0.0051999999999999998, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1264.95, y: 896.20100000000002, yaw: -0.0111, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1262.1489999999999, y: 807.51400000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1392.845, y: 802.846, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1484.3320000000001, y: 802.846, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1396.579, y: 887.79899999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1481.5319999999999, y: 886.86500000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1393.779, y: 969.01700000000005, yaw: 3.1036000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1481.5319999999999, y: 964.34900000000005, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1397.5129999999999, y: 1055.836, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1477.797, y: 1049.3019999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1399.3800000000001, y: 1142.6559999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1478.731, y: 1131.453, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1404.048, y: 1223.874, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1479.664, y: 1208.0039999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1406.848, y: 1300.424, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1482.4649999999999, y: 1294.8230000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1406.848, y: 1384.443, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1479.664, y: 1374.174, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 929.80799999999999, y: 681.48599999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 971.81700000000001, y: 679.61900000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1017.561, y: 681.48599999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1063.3050000000001, y: 679.61900000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 935.40899999999999, y: 763.63800000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 971.81700000000001, y: 763.63800000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1019.428, y: 764.57100000000003, yaw: -0.66820000000000002, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1060.5039999999999, y: 763.63800000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 935.40899999999999, y: 846.72299999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 970.88400000000001, y: 845.78899999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 933.54200000000003, y: 927.00699999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 975.55200000000002, y: 927.00699999999995, yaw: -0.76100000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 928.875, y: 1010.093, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 974.61800000000005, y: 1011.026, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1017.561, y: 1011.026, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1061.4380000000001, y: 1011.026, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1058.6369999999999, y: 1092.2439999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1013.827, y: 1094.1120000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 929.80799999999999, y: 1093.1780000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 973.68499999999995, y: 1094.1120000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 933.54200000000003, y: 1177.1969999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 974.61800000000005, y: 1174.396, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1017.561, y: 1174.396, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1064.2380000000001, y: 1174.396, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 928.875, y: 1260.2819999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 983.01999999999998, y: 1257.481, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1020.362, y: 1261.2159999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1060.5039999999999, y: 1258.415, yaw: 0.46689999999999998, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1018.495, y: 1339.633, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1062.3710000000001, y: 1339.633, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 928.875, y: 1340.567, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 983.01999999999998, y: 1341.5, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 929.80799999999999, y: 1421.7850000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 973.68499999999995, y: 1422.7180000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1022.229, y: 1423.652, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1062.3710000000001, y: 1422.7180000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1016.628, y: 930.74199999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1063.3050000000001, y: 927.94100000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1064.2380000000001, y: 845.78899999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1015.694, y: 843.92200000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1623.904, y: 726.14499999999998, yaw: -1.5678000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1623.904, y: 690.68200000000002, yaw: -1.5653999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1515.1389999999999, y: 678.68499999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1464.7280000000001, y: 678.68499999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1422.7180000000001, y: 680.55200000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1374.174, y: 678.68499999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1292.0219999999999, y: 676.81799999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1244.412, y: 681.48599999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1203.336, y: 682.41899999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1157.5920000000001, y: 681.48599999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1155.7249999999999, y: 760.83699999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1198.6679999999999, y: 761.76999999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1151.991, y: 843.92200000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1202.402, y: 843.92200000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1242.5450000000001, y: 844.85599999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1290.155, y: 844.85599999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1247.212, y: 761.76999999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1293.8900000000001, y: 761.76999999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1373.241, y: 762.70399999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1427.386, y: 760.83699999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1466.595, y: 762.70399999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1515.1389999999999, y: 759.90300000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1509.538, y: 842.05499999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1468.462, y: 842.98900000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1424.585, y: 842.98900000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1373.241, y: 846.72299999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1154.7919999999999, y: 927.00699999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1203.336, y: 927.94100000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1247.212, y: 926.07399999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1291.0889999999999, y: 923.27300000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1375.1079999999999, y: 927.00699999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1424.585, y: 927.00699999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1465.6610000000001, y: 925.13999999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1511.405, y: 926.07399999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1163.194, y: 1425.519, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1198.6679999999999, y: 1424.585, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1155.7249999999999, y: 1337.7660000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1201.4690000000001, y: 1340.567, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1160.393, y: 1260.2819999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1199.6020000000001, y: 1258.415, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1199.6020000000001, y: 1175.3299999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1154.7919999999999, y: 1176.2629999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1158.5260000000001, y: 1095.979, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1197.7349999999999, y: 1094.1120000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1154.7919999999999, y: 1011.026, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1203.336, y: 1011.026, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1245.345, y: 1009.159, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1285.4880000000001, y: 1010.093, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1286.421, y: 1095.0450000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1247.212, y: 1095.0450000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1285.4880000000001, y: 1178.1300000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1248.146, y: 1178.1300000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1285.4880000000001, y: 1256.548, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1247.212, y: 1261.2159999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1249.0799999999999, y: 1343.367, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1286.421, y: 1340.567, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1289.222, y: 1423.652, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1247.212, y: 1426.453, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1381.643, y: 1007.292, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1422.7180000000001, y: 1010.093, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1474.0630000000001, y: 1011.026, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1510.471, y: 1010.093, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1507.671, y: 1092.2439999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1472.1959999999999, y: 1093.1780000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1419.9179999999999, y: 1093.1780000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1383.51, y: 1092.2439999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1382.576, y: 1179.0640000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1418.9839999999999, y: 1174.396, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1470.329, y: 1178.1300000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1506.7370000000001, y: 1176.2629999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1508.604, y: 1255.614, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1477.797, y: 1255.614, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1381.643, y: 1258.415, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1423.652, y: 1259.3489999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1382.576, y: 1344.3009999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1423.652, y: 1343.367, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1466.595, y: 1343.367, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1507.671, y: 1340.567, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1510.471, y: 1421.7850000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1476.864, y: 1422.7180000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1425.519, y: 1419.9179999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1386.3099999999999, y: 1421.7850000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1461.038, y: 457.61900000000003, yaw: -0.56369999999999998, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 1490.7629999999999, y: 474.17099999999999, yaw: -0.5746, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1460.0599999999999, y: 491.666, yaw: -0.57130000000000003, z: 0}
     vertices:
       - [774.053, 979.51199999999994, 0, ""]
       - [902.88900000000001, 979.51199999999994, 0, ""]
@@ -244,6 +431,10 @@ levels:
       - [1029.5129999999999, 2261.904, 0, ""]
       - [1028.422, 2365.4839999999999, 0, ""]
       - [1215.047, 1929.3889999999999, 0, ""]
+      - [1641.548, 1595.4380000000001, 0, ""]
+      - [1385.105, 1593.694, 0, ""]
+      - [1306.6020000000001, 1591.9490000000001, 0, ""]
+      - [2136.9879999999998, 1782.973, 0, ""]
     walls:
       - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [13, 14, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -385,12 +576,14 @@ levels:
       - [197, 198, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [199, 188, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   L2:
+    doors:
+      - [66, 70, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [72, 10, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [47, 66, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
     drawing:
       filename: conference_room_b1_balcony.png
     elevation: 0
     fiducials:
-      - [676.35199999999998, 1395.6610000000001, waiting_room_b]
-      - [676.35199999999998, 1354.5309999999999, waiting_room_a]
       - [474.55000000000001, 994.57000000000005, hab_d]
       - [377.40800000000002, 993.74300000000005, hab_c]
       - [474.55000000000001, 899.90800000000002, hab_b]
@@ -398,11 +591,52 @@ levels:
       - [924.12400000000002, 1199.249, right_c]
       - [924.69500000000005, 1399.029, right_a]
       - [676.50199999999995, 1202.7850000000001, waiting_room_c]
+      - [676.553, 1354.0909999999999, waiting_room_a]
+      - [676.92399999999998, 1395.626, waiting_room_b]
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [0, 3, 2, 4, 5, 1]
     layers:
       {}
+    models:
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 624.82600000000002, y: 889.68399999999997, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 681.38, y: 887.81899999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 767.76499999999999, y: 889.68399999999997, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 832.39800000000002, y: 887.19799999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 925.61900000000003, y: 889.06200000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 980.92999999999995, y: 892.16999999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 980.30899999999997, y: 941.26599999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 924.99800000000005, y: 937.53700000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 833.64099999999996, y: 937.53700000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 767.14300000000003, y: 936.29399999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 681.38, y: 937.53700000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 624.20399999999995, y: 936.29399999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 765.65599999999995, y: 965.77099999999996, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 794.24400000000003, y: 965.14999999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 791.13699999999994, y: 909.83799999999997, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 763.79200000000003, y: 907.35299999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 820.96799999999996, y: 909.21699999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 850.17700000000002, y: 909.83799999999997, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 848.93399999999997, y: 960.79899999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 827.80399999999997, y: 963.90700000000004, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 914.80999999999995, y: 964.52800000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 939.66899999999998, y: 963.90700000000004, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 912.32399999999996, y: 906.73099999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 940.91200000000003, y: 909.83799999999997, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 968.87900000000002, y: 907.97400000000005, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 998.08799999999997, y: 909.83799999999997, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 994.98000000000002, y: 962.66399999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 975.71500000000003, y: 962.04200000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 697.29399999999998, y: 962.04200000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 677.40700000000004, y: 962.04200000000003, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 673.05700000000002, y: 909.21699999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 699.15899999999999, y: 907.97400000000005, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 642.60400000000004, y: 909.83799999999997, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 609.66600000000005, y: 907.35299999999995, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 617.745, y: 963.90700000000004, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 641.98299999999995, y: 965.14999999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 615.88099999999997, y: 1167.75, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 641.98299999999995, y: 1170.2360000000001, yaw: 1.5708, z: 0}
     vertices:
       - [365.20699999999999, 886.26599999999996, 0, ""]
       - [366.18700000000001, 1504.982, 0, ""]
@@ -410,5 +644,122 @@ levels:
       - [1179.048, 882.34400000000005, 0, ""]
       - [1149.6320000000001, 1421.6369999999999, 0, ""]
       - [1151.5930000000001, 1504.982, 0, ""]
+      - [434.92500000000001, 1033.6420000000001, 0, ""]
+      - [448.09699999999998, 1037.8009999999999, 0, ""]
+      - [489.69, 1200.0160000000001, 0, ""]
+      - [676.16800000000001, 1199.3230000000001, 0, ""]
+      - [676.61199999999997, 1353.2819999999999, 0, ""]
+      - [446.02300000000002, 1201.4400000000001, 0, ""]
+      - [435.65800000000002, 1397.703, 0, ""]
+      - [487.34800000000001, 1397.165, 0, ""]
+      - [446.96499999999997, 1398.242, 0, ""]
+      - [926.71900000000005, 1398.78, 0, ""]
+      - [1166.866, 1398.78, 0, ""]
+      - [1162.558, 1401.472, 0, ""]
+      - [1162.558, 1199.0170000000001, 0, ""]
+      - [924.56600000000003, 1199.556, 0, ""]
+      - [1173.866, 1398.78, 0, ""]
+      - [1174.4590000000001, 884.62599999999998, 0, ""]
+      - [1161.3900000000001, 884.62599999999998, 0, ""]
+      - [1144.3820000000001, 1502.7750000000001, 0, ""]
+      - [1119.4000000000001, 1420.692, 0, ""]
+      - [1117.616, 1400.171, 0, ""]
+      - [404.29599999999999, 1501.4369999999999, 0, ""]
+      - [396.48700000000002, 1039.8889999999999, 0, ""]
+      - [376.45499999999998, 1040.4300000000001, 0, ""]
+      - [376.99599999999998, 900.74699999999996, 0, ""]
+      - [476.07299999999998, 900.20600000000002, 0, ""]
+      - [473.36599999999999, 1041.5129999999999, 0, ""]
+      - [388.90699999999998, 1039.8889999999999, 0, ""]
+      - [509.63999999999999, 1040.971, 0, ""]
+      - [508.01600000000002, 1017.691, 0, ""]
+      - [477.15600000000001, 1017.691, 0, ""]
+      - [505.851, 884.505, 0, ""]
+      - [468.49400000000003, 1194.1890000000001, 0, ""]
+      - [467.411, 1094.029, 0, ""]
+      - [487.44299999999998, 1095.653, 0, ""]
+      - [488.52600000000001, 1115.6849999999999, 0, ""]
+      - [507.47500000000002, 1115.144, 0, ""]
+      - [506.93299999999999, 1045.8440000000001, 0, ""]
+      - [508.01600000000002, 1128.1379999999999, 0, ""]
+      - [577.85799999999995, 1125.972, 0, ""]
+      - [676.93499999999995, 1159.539, 0, ""]
+      - [676.93499999999995, 1069.124, 0, ""]
+      - [675.85199999999998, 1244.54, 0, ""]
+      - [863.178, 1151.9590000000001, 0, ""]
+      - [864.26099999999997, 1069.6659999999999, 0, ""]
+      - [1097.606, 885.58799999999997, 0, ""]
+      - [1098.1479999999999, 1114.6030000000001, 0, ""]
+      - [1118.1800000000001, 1115.144, 0, ""]
+      - [1117.6379999999999, 1095.1120000000001, 0, ""]
+      - [1138.212, 1095.1120000000001, 0, ""]
+      - [1136.046, 1196.355, 0, ""]
+      - [418.63400000000001, 1496.471, 0, ""]
+      - [417.81299999999999, 1422.576, 0, ""]
+      - [401.80200000000002, 1423.807, 0, ""]
+      - [448.19200000000001, 1423.807, 0, ""]
+      - [434.23399999999998, 1418.0599999999999, 0, ""]
+      - [486.78199999999998, 1418.0599999999999, 0, ""]
+      - [485.96100000000001, 1393.0170000000001, 0, ""]
+      - [403.85500000000002, 1418.8810000000001, 0, ""]
+      - [439.16000000000003, 1419.2909999999999, 0, ""]
+      - [682.60500000000002, 1416.828, 0, ""]
+      - [800.42700000000002, 1245.5, 0, ""]
+      - [800.42700000000002, 1273.963, 0, ""]
+      - [675.62599999999998, 1237.289, 0, ""]
+      - [803.16399999999999, 1238.931, 0, ""]
+      - [929.60799999999995, 1245.5, 0, ""]
+      - [723.61000000000001, 1393.8679999999999, 0, ""]
+      - [677.46799999999996, 1398.2380000000001, 0, ""]
+    walls:
+      - [10, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [9, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [6, 12, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [13, 8, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [14, 7, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [15, 16, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [17, 18, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [18, 19, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [19, 15, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [17, 20, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [20, 21, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [22, 18, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [5, 4, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [4, 24, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [24, 25, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [26, 27, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [27, 28, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [28, 29, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [29, 30, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [30, 31, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [31, 32, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [32, 33, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [33, 34, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [34, 35, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [34, 36, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [37, 38, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [38, 39, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [39, 40, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [40, 41, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [41, 42, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [42, 43, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [43, 44, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [45, 46, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [46, 47, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [48, 49, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [50, 51, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [51, 52, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [52, 53, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [53, 54, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [54, 55, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [56, 57, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [57, 58, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [58, 59, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [12, 60, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [60, 61, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [61, 62, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [63, 64, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [61, 65, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [66, 67, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
 lifts: {}
 name: vamoaver
