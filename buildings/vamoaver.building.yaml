@@ -16,14 +16,36 @@ graphs:
   {}
 levels:
   L1:
+    constraints:
+      - {ids: ["{29bd14b7-0bb7-41d9-9c13-ba95a54977a3}", "{5caa1876-c662-44db-a722-88bbb450f535}"]}
+      - {ids: ["{27051581-634e-4f5a-9041-61761075446d}", "{48600e22-bc84-4c59-a06e-89eb6bf5d4b2}"]}
+      - {ids: ["{884bd009-c2c5-49a3-9bdd-605b6d3401f3}", "{35adc053-4483-4924-9db1-a6c787de25e1}"]}
+      - {ids: ["{16daf395-e9f3-4bde-918a-f27f0614ef0e}", "{ab736bc1-5248-4323-a8eb-808c39c65804}"]}
+      - {ids: ["{d5d69152-6072-4cbe-b6c9-0777986800f7}", "{3bb03c60-6188-4c52-a2ac-4cdc3c187527}"]}
+      - {ids: ["{e28464f3-901a-4067-a1d9-00756f970b30}", "{15e16123-a176-490f-bc63-c8e5ece9acbf}"]}
+      - {ids: ["{630a1da7-f464-487e-a78c-fee751251663}", "{0b5f8bb0-7f3e-468a-a432-3ab21f4a0578}"]}
+      - {ids: ["{381f4313-0a26-490e-97b1-1e9aeeecca93}", "{70cb3236-d0f7-4b84-a080-91fe3d9ab957}"]}
+      - {ids: ["{6e907d9a-841f-41f3-92b8-231c6973a5c5}", "{43691d4e-9433-428a-b6a8-ebda858a6e13}"]}
+      - {ids: ["{7035d00d-ddac-4300-9a0b-920c4f54fd7c}", "{af6c719b-3bc2-4f03-9edb-99eca88c03bb}"]}
     doors:
-      - [188, 189, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "pd"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [190, 150, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "pe"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [106, 191, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "pf"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [131, 126, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "pg"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [188, 189, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, pd], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [190, 150, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, pe], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [106, 191, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, pf], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [131, 126, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, pg], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
     drawing:
       filename: rostits.png
     elevation: 0
+    features:
+      - {id: "{15e16123-a176-490f-bc63-c8e5ece9acbf}", name: "", x: 686.62800000000004, y: 46.698999999999998}
+      - {id: "{3bb03c60-6188-4c52-a2ac-4cdc3c187527}", name: "", x: 688.53700000000003, y: 292.89299999999997}
+      - {id: "{ab736bc1-5248-4323-a8eb-808c39c65804}", name: "", x: 1031.1099999999999, y: 1782.463}
+      - {id: "{35adc053-4483-4924-9db1-a6c787de25e1}", name: "", x: 1030.155, y: 2069.6900000000001}
+      - {id: "{5caa1876-c662-44db-a722-88bbb450f535}", name: "", x: 1031.1099999999999, y: 2264.355}
+      - {id: "{48600e22-bc84-4c59-a06e-89eb6bf5d4b2}", name: "", x: 914.69200000000001, y: 2267.2179999999998}
+      - {id: "{70cb3236-d0f7-4b84-a080-91fe3d9ab957}", name: "", x: 1304.4659999999999, y: 1698.673}
+      - {id: "{0b5f8bb0-7f3e-468a-a432-3ab21f4a0578}", name: "", x: 1306.9369999999999, y: 1585.0250000000001}
+      - {id: "{af6c719b-3bc2-4f03-9edb-99eca88c03bb}", name: "", x: 1404.5250000000001, y: 2366.971}
+      - {id: "{43691d4e-9433-428a-b6a8-ebda858a6e13}", name: "", x: 1012.9349999999999, y: 2376.8530000000001}
     fiducials:
       - [580.702, 1330.8230000000001, hab_a]
       - [726.73900000000003, 1328.7070000000001, hab_b]
@@ -37,8 +59,50 @@ levels:
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [10, 11, 6, 7, 8, 9]
+    lanes:
+      - [205, 206, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [206, 207, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [207, 208, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [208, 209, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [205, 209, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [207, 210, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [210, 211, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [211, 212, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [207, 213, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [213, 214, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [214, 215, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [215, 216, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [216, 217, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [216, 218, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [218, 219, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [219, 220, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [220, 221, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [221, 222, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [222, 223, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [223, 216, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [225, 226, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [226, 227, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
-      {}
+      sim_scan:
+        color: [1, 0, 0, 0.5]
+        features:
+          - {id: "{e28464f3-901a-4067-a1d9-00756f970b30}", name: "", x: 116.455, y: 13.855}
+          - {id: "{d5d69152-6072-4cbe-b6c9-0777986800f7}", name: "", x: 116.804, y: 79.024000000000001}
+          - {id: "{16daf395-e9f3-4bde-918a-f27f0614ef0e}", name: "", x: 228.89400000000001, y: 515.86500000000001}
+          - {id: "{884bd009-c2c5-49a3-9bdd-605b6d3401f3}", name: "", x: 229.56200000000001, y: 615.77099999999996}
+          - {id: "{29bd14b7-0bb7-41d9-9c13-ba95a54977a3}", name: "", x: 230.482, y: 677.78099999999995}
+          - {id: "{27051581-634e-4f5a-9041-61761075446d}", name: "", x: 191.43799999999999, y: 677.81799999999998}
+          - {id: "{381f4313-0a26-490e-97b1-1e9aeeecca93}", name: "", x: 325.74299999999999, y: 489.51400000000001}
+          - {id: "{630a1da7-f464-487e-a78c-fee751251663}", name: "", x: 324.69799999999998, y: 446.822}
+          - {id: "{7035d00d-ddac-4300-9a0b-920c4f54fd7c}", name: "", x: 357.57499999999999, y: 715.49000000000001}
+          - {id: "{6e907d9a-841f-41f3-92b8-231c6973a5c5}", name: "", x: 232.554, y: 717.04999999999995}
+        filename: sim_hall.png
+        transform:
+          scale: 0.054456999999999998
+          translation_x: 4.2999999999999998
+          translation_y: 1.8
+          yaw: 0.00029670597283903603
+        visible: true
     measurements:
       - [0, 1, {distance: [3, 2.2000000000000002]}]
       - [2, 3, {distance: [3, 12]}]
@@ -435,6 +499,30 @@ levels:
       - [1385.105, 1593.694, 0, ""]
       - [1306.6020000000001, 1591.9490000000001, 0, ""]
       - [2136.9879999999998, 1782.973, 0, ""]
+      - [820, 1720, 0, "", {lift_cabin: [1, lift]}]
+      - [1219.76, 444.52199999999999, 0, ""]
+      - [1112.2860000000001, 488.38900000000001, 0, charger_center, {is_charger: [4, true]}]
+      - [1114.479, 1534.614, 0, ""]
+      - [1603.595, 1519.26, 0, ""]
+      - [1568.501, 448.90800000000002, 0, cocacola, {dropoff_ingestor: [1, coke]}]
+      - [886.51199999999994, 1549.9100000000001, 0, ""]
+      - [928.99400000000003, 1689.6900000000001, 0, ascensor, {is_holding_point: [4, true]}]
+      - [837.178, 1719.8389999999999, 0, ""]
+      - [1123.5889999999999, 2224.1419999999998, 0, ""]
+      - [702.88, 2215.9189999999999, 0, ""]
+      - [791.04200000000003, 2433.2020000000002, 0, ""]
+      - [793.47799999999995, 2542.8330000000001, 0, ""]
+      - [1358.598, 2530.0599999999999, 0, ""]
+      - [360.71100000000001, 2518.884, 0, ""]
+      - [462.62900000000002, 1274.1420000000001, 0, ""]
+      - [439.92200000000003, 521.01099999999997, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, tinyRobot]}]
+      - [122.017, 874.86900000000003, 0, ""]
+      - [390.72199999999998, 1050.8520000000001, 0, ""]
+      - [492.90600000000001, 2523.0529999999999, 0, ""]
+      - [491.01299999999998, 2388.701, 0, ""]
+      - [1131.8009999999999, 2229.9760000000001, 0, ""]
+      - [1678.0820000000001, 2243.9119999999998, 0, ""]
+      - [1527.576, 2567.221, 0, finisterre, {pickup_dispenser: [1, coke]}]
     walls:
       - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [13, 14, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -577,9 +665,9 @@ levels:
       - [199, 188, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   L2:
     doors:
-      - [66, 70, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "pa"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [72, 10, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "pb"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [47, 66, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "pc"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [66, 70, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, pa], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [72, 10, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, pb], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [47, 66, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, pc], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
     drawing:
       filename: conference_room_b1_balcony.png
     elevation: 0
@@ -596,8 +684,26 @@ levels:
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [0, 3, 2, 4, 5, 1]
+    lanes:
+      - [74, 75, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [75, 76, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [76, 77, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [78, 79, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [79, 80, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [80, 81, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [81, 82, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [82, 83, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [83, 78, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
-      {}
+      sim_scan:
+        color: [1, 0, 0, 0.5]
+        filename: sim_hall.png
+        transform:
+          scale: 0.050000000000000003
+          translation_x: 0
+          translation_y: 0
+          yaw: 0
+        visible: false
     models:
       - {dispensable: false, model_name: AdjTable_063, name: OpenRobotics/AdjTable, static: true, x: 625.12199999999996, y: 881.62099999999998, yaw: 0.0051999999999999998, z: 0}
       - {dispensable: false, model_name: AdjTable_064, name: OpenRobotics/AdjTable, static: true, x: 686.14599999999996, y: 881.62099999999998, yaw: 0.0067000000000000002, z: 0}
@@ -711,6 +817,17 @@ levels:
       - [929.60799999999995, 1245.5, 0, ""]
       - [723.61000000000001, 1393.8679999999999, 0, ""]
       - [677.46799999999996, 1398.2380000000001, 0, ""]
+      - [539.41399999999999, 1160.48, 0, "", {lift_cabin: [1, lift]}]
+      - [547.16999999999996, 1160.1880000000001, 0, ""]
+      - [640.28300000000002, 1159.393, 0, ""]
+      - [642.67100000000005, 1003.408, 0, ""]
+      - [1071.6300000000001, 1001.816, 0, charger2]
+      - [797.86000000000001, 1007.3869999999999, 0, center2]
+      - [739.76300000000003, 1359.1489999999999, 0, ""]
+      - [798.65599999999995, 1472.1579999999999, 0, ""]
+      - [454.05599999999998, 1483.3, 0, ""]
+      - [449.28100000000001, 1445.0999999999999, 0, ""]
+      - [883.01499999999999, 1430.7750000000001, 0, ""]
     walls:
       - [10, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -761,5 +878,26 @@ levels:
       - [63, 64, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [61, 65, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [66, 67, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-lifts: {}
+lifts:
+  lift:
+    depth: 2
+    doors:
+      doors:
+        door_type: 2
+        motion_axis_orientation: 1.5069999999999999
+        width: 1
+        x: 1
+        y: 0
+    highest_floor: L2
+    initial_floor_name: L1
+    level_doors:
+      L1: [doors]
+      L2: [doors]
+    lowest_floor: L1
+    plugins: true
+    reference_floor_name: L1
+    width: 2
+    x: 820
+    y: 1720
+    yaw: 0
 name: vamoaver
