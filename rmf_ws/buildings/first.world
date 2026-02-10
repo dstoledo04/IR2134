@@ -39,7 +39,7 @@
         <scene>scene</scene>
         <ambient_light>0.4 0.4 0.4</ambient_light>
         <background_color>0.8 0.8 0.8</background_color>
-        <camera_pose>75.0 -70.0 10 0 0.6 1.57</camera_pose>
+        <camera_pose>5.0 -23.333333333333332 10 0 0.6 1.57</camera_pose>
       </plugin>
       <plugin filename="EntityContextMenuPlugin" name="Entity context menu">
         <gz-gui>
@@ -242,7 +242,7 @@
     <include>
       <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
-      <pose>55.817 -18.461 0.0 0 0 -0.6301878780459845</pose>
+      <pose>3.3333333333333335 -3.3333333333333335 0.0 0 0 0.1074023304053715</pose>
     </include>
     <include>
       <name>first_L1</name>
@@ -251,7 +251,7 @@
     </include>
     <plugin name="register_component" filename="libregister_component.so">
       <component name="Chargers">
-        <rmf_charger name="tinyRobot1_charger" x="55.817" y="-18.461" z="0.0" />
+        <rmf_charger name="tinyRobot1_charger" x="3.3333333333333335" y="-3.3333333333333335" z="0.0" />
       </component>
     </plugin>
   </world>
