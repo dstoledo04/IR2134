@@ -223,7 +223,12 @@
       </plugin>
       <plugin filename="toggle_charging" name="toggle_charging" />
       <plugin name="toggle_floors" filename="toggle_floors">
-        <floor name="L1" model_name="first_L1" />
+        <floor name="L1" model_name="first_L1">
+          <model name="OpenRobotics/Sofa" />
+          <model name="OpenRobotics/Sofa_2" />
+          <model name="null" />
+        </floor>
+        <floor name="L2" model_name="first_L2" />
       </plugin>
     </gui>
     <light type="directional" name="sun">
@@ -240,14 +245,96 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
     <include>
+      <name>OpenRobotics/Sofa</name>
+      <uri>model://Sofa</uri>
+      <pose>2.158666666666667 -5.800333333333333 0.0 0 0 1.5708</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Sofa_2</name>
+      <uri>model://Sofa</uri>
+      <pose>2.2952666666666666 -0.7067333333333334 0.0 0 0 -1.4659</pose>
+      <static>True</static>
+    </include>
+    <include>
       <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
       <pose>3.3333333333333335 -3.3333333333333335 0.0 0 0 0.1074023304053715</pose>
     </include>
+    <model name="null">
+      <pose>4.847733333333333 -3.0652 0.0 0 0 1.5896922564070775</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>1.154341194743954 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>1.154341194743954 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>25.71876497451208</iyy>
+            <izz>5.5558483078454115</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.582170597371977 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="null" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
     <include>
       <name>first_L1</name>
       <uri>model://first_L1</uri>
       <pose>0 0 0.0 0 0 0</pose>
+    </include>
+    <include>
+      <name>first_L2</name>
+      <uri>model://first_L2</uri>
+      <pose>0 0 10.0 0 0 0</pose>
     </include>
     <plugin name="register_component" filename="libregister_component.so">
       <component name="Chargers">
