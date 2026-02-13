@@ -1,3 +1,6 @@
+
+Primeramente para abrir el docker rocker ghcr.io/open-rmf/rmf/rmf_demos:jazzy-rmf-latest --x11   --volume ~/Documentos/GitHub/IR2134/rmf_ws:/ws
+
 Para lanzar mi first_project ejecutamos ros2 launch firs_project first.launch.xml y para mandar una tarea he utilizado ros2 run project_tasks dispatch_patrol   --use_sim_time   -p tinyRobot1_charger piso2   -n 1   -F tinyRobot1   -R tinyRobot1
 
 Para lanzar el mapa de kyoto utilizamos rocker --x11 --name rmf_demos \
