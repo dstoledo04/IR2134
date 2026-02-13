@@ -1,0 +1,97 @@
+running egg_info
+creating ../../build/project_tasks/project_tasks.egg-info
+writing ../../build/project_tasks/project_tasks.egg-info/PKG-INFO
+writing dependency_links to ../../build/project_tasks/project_tasks.egg-info/dependency_links.txt
+writing entry points to ../../build/project_tasks/project_tasks.egg-info/entry_points.txt
+writing requirements to ../../build/project_tasks/project_tasks.egg-info/requires.txt
+writing top-level names to ../../build/project_tasks/project_tasks.egg-info/top_level.txt
+writing manifest file '../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+reading manifest file '../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+writing manifest file '../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ws/build/project_tasks/build
+creating /ws/build/project_tasks/build/lib
+creating /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dynamic_event_client.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_action.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_patrol.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/emergency_signal.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/request_loop.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_json.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/api_request.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/__init__.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/cancel_task.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_go_to_place.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/get_robot_location.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/wait_for_task_complete.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_loop.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/request_lift.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_clean.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_teleop.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_delivery.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_dynamic_event.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/mock_docker.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/dispatch_cart_delivery.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/teleop_robot.py -> /ws/build/project_tasks/build/lib/project_tasks
+copying project_tasks/cancel_robot_task.py -> /ws/build/project_tasks/build/lib/project_tasks
+running install
+running install_lib
+creating /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dynamic_event_client.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_action.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_patrol.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/emergency_signal.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/request_loop.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_json.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/api_request.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/__init__.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/cancel_task.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_go_to_place.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/get_robot_location.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/wait_for_task_complete.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_loop.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/request_lift.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_clean.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_teleop.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_delivery.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_dynamic_event.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/mock_docker.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/dispatch_cart_delivery.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/teleop_robot.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+copying /ws/build/project_tasks/build/lib/project_tasks/cancel_robot_task.py -> /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dynamic_event_client.py to dynamic_event_client.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_action.py to dispatch_action.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_patrol.py to dispatch_patrol.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/emergency_signal.py to emergency_signal.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/request_loop.py to request_loop.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_json.py to dispatch_json.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/api_request.py to api_request.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/__init__.py to __init__.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/cancel_task.py to cancel_task.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_go_to_place.py to dispatch_go_to_place.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/get_robot_location.py to get_robot_location.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/wait_for_task_complete.py to wait_for_task_complete.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_loop.py to dispatch_loop.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/request_lift.py to request_lift.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_clean.py to dispatch_clean.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_teleop.py to dispatch_teleop.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_delivery.py to dispatch_delivery.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_dynamic_event.py to dispatch_dynamic_event.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/mock_docker.py to mock_docker.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_cart_delivery.py to dispatch_cart_delivery.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/teleop_robot.py to teleop_robot.cpython-312.pyc
+byte-compiling /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/cancel_robot_task.py to cancel_robot_task.cpython-312.pyc
+running install_data
+creating /ws/install/project_tasks/share/ament_index
+creating /ws/install/project_tasks/share/ament_index/resource_index
+creating /ws/install/project_tasks/share/ament_index/resource_index/packages
+copying resource/project_tasks -> /ws/install/project_tasks/share/ament_index/resource_index/packages
+copying package.xml -> /ws/install/project_tasks/share/project_tasks
+running install_egg_info
+Copying ../../build/project_tasks/project_tasks.egg-info to /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dispatch_go_to script to /ws/install/project_tasks/lib/project_tasks
+Installing dispatch_loop script to /ws/install/project_tasks/lib/project_tasks
+Installing dispatch_patrol script to /ws/install/project_tasks/lib/project_tasks
+writing list of installed files to '/ws/build/project_tasks/install.log'

@@ -1,0 +1,23 @@
+[0.450s] Invoking command in '/ws/build/project_fleet_adapter': PYTHONPATH=/ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/project_fleet_adapter/build --no-deps symlink_data --force
+[0.625s] running develop
+[0.714s] running egg_info
+[0.722s] writing project_fleet_adapter.egg-info/PKG-INFO
+[0.722s] writing dependency_links to project_fleet_adapter.egg-info/dependency_links.txt
+[0.722s] writing entry points to project_fleet_adapter.egg-info/entry_points.txt
+[0.722s] writing requirements to project_fleet_adapter.egg-info/requires.txt
+[0.722s] writing top-level names to project_fleet_adapter.egg-info/top_level.txt
+[0.739s] reading manifest file 'project_fleet_adapter.egg-info/SOURCES.txt'
+[0.739s] writing manifest file 'project_fleet_adapter.egg-info/SOURCES.txt'
+[0.748s] running build_ext
+[0.748s] Creating /ws/install/project_fleet_adapter/lib/python3.12/site-packages/project-fleet-adapter.egg-link (link to .)
+[0.748s] Installing fleet_adapter script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[0.748s] Installing fleet_manager script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[0.748s] Installing manage_lane script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[0.749s] 
+[0.749s] Installed /ws/build/project_fleet_adapter
+[0.749s] running symlink_data
+[0.749s] symbolically linking /ws/build/project_fleet_adapter/resource/project_fleet_adapter -> /ws/install/project_fleet_adapter/share/ament_index/resource_index/packages
+[0.749s] symbolically linking /ws/build/project_fleet_adapter/package.xml -> /ws/install/project_fleet_adapter/share/project_fleet_adapter
+[0.749s] symbolically linking /ws/build/project_fleet_adapter/config.yaml -> /ws/install/project_fleet_adapter/share/project_fleet_adapter
+[0.749s] symbolically linking /ws/build/project_fleet_adapter/launch/fleet_adapter.launch.xml -> /ws/install/project_fleet_adapter/share/project_fleet_adapter/launch
+[0.768s] Invoked command in '/ws/build/project_fleet_adapter' returned '0': PYTHONPATH=/ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/project_fleet_adapter/build --no-deps symlink_data --force

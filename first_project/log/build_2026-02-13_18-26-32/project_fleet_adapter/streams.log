@@ -1,0 +1,19 @@
+[0.440s] Invoking command in '/ws/build/project_fleet_adapter': PYTHONPATH=/ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/project_fleet_adapter/build --no-deps symlink_data
+[0.613s] running develop
+[0.701s] running egg_info
+[0.709s] writing project_fleet_adapter.egg-info/PKG-INFO
+[0.709s] writing dependency_links to project_fleet_adapter.egg-info/dependency_links.txt
+[0.709s] writing entry points to project_fleet_adapter.egg-info/entry_points.txt
+[0.709s] writing requirements to project_fleet_adapter.egg-info/requires.txt
+[0.710s] writing top-level names to project_fleet_adapter.egg-info/top_level.txt
+[0.725s] reading manifest file 'project_fleet_adapter.egg-info/SOURCES.txt'
+[0.726s] writing manifest file 'project_fleet_adapter.egg-info/SOURCES.txt'
+[0.735s] running build_ext
+[0.735s] Creating /ws/install/project_fleet_adapter/lib/python3.12/site-packages/project-fleet-adapter.egg-link (link to .)
+[0.735s] Installing fleet_adapter script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[0.735s] Installing fleet_manager script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[0.735s] Installing manage_lane script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[0.735s] 
+[0.735s] Installed /ws/build/project_fleet_adapter
+[0.735s] running symlink_data
+[0.752s] Invoked command in '/ws/build/project_fleet_adapter' returned '0': PYTHONPATH=/ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/project_fleet_adapter/build --no-deps symlink_data

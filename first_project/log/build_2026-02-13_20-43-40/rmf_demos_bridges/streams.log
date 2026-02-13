@@ -1,0 +1,41 @@
+[1.135s] Invoking command in '/ws/src/rmf_demos/rmf_demos_bridges': PYTHONPATH=/ws/build/rmf_demos_bridges/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/rmf_demos_bridges/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rmf_demos_bridges build --build-base /ws/build/rmf_demos_bridges/build install --record /ws/build/rmf_demos_bridges/install.log --single-version-externally-managed install_data
+[1.393s] running egg_info
+[1.394s] creating ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info
+[1.410s] writing ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/PKG-INFO
+[1.410s] writing dependency_links to ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/dependency_links.txt
+[1.410s] writing entry points to ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/entry_points.txt
+[1.410s] writing requirements to ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/requires.txt
+[1.410s] writing top-level names to ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/top_level.txt
+[1.411s] writing manifest file '../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[1.443s] reading manifest file '../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[1.444s] writing manifest file '../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[1.444s] running build
+[1.444s] running build_py
+[1.444s] creating /ws/build/rmf_demos_bridges/build
+[1.444s] creating /ws/build/rmf_demos_bridges/build/lib
+[1.444s] creating /ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[1.444s] copying rmf_demos_bridges/__init__.py -> /ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[1.444s] copying rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[1.445s] copying rmf_demos_bridges/fleet_socketio_bridge.py -> /ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[1.445s] running install
+[1.451s] running install_lib
+[1.468s] creating /ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges
+[1.468s] copying /ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/__init__.py -> /ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges
+[1.468s] copying /ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges
+[1.468s] copying /ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_socketio_bridge.py -> /ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges
+[1.469s] byte-compiling /ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/__init__.py to __init__.cpython-312.pyc
+[1.469s] byte-compiling /ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py to fleet_robotmanager_mqtt_bridge.cpython-312.pyc
+[1.471s] byte-compiling /ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/fleet_socketio_bridge.py to fleet_socketio_bridge.cpython-312.pyc
+[1.472s] running install_data
+[1.472s] creating /ws/install/rmf_demos_bridges/share/ament_index
+[1.472s] creating /ws/install/rmf_demos_bridges/share/ament_index/resource_index
+[1.473s] creating /ws/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[1.473s] copying resource/rmf_demos_bridges -> /ws/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[1.474s] copying package.xml -> /ws/install/rmf_demos_bridges/share/rmf_demos_bridges
+[1.474s] running install_egg_info
+[1.491s] Copying ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info to /ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.8.1-py3.12.egg-info
+[1.492s] running install_scripts
+[1.609s] Installing fleet_robotmanager_mqtt_bridge script to /ws/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[1.609s] Installing fleet_socketio_bridge script to /ws/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[1.609s] writing list of installed files to '/ws/build/rmf_demos_bridges/install.log'
+[1.647s] Invoked command in '/ws/src/rmf_demos/rmf_demos_bridges' returned '0': PYTHONPATH=/ws/build/rmf_demos_bridges/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/rmf_demos_bridges/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rmf_demos_bridges build --build-base /ws/build/rmf_demos_bridges/build install --record /ws/build/rmf_demos_bridges/install.log --single-version-externally-managed install_data
