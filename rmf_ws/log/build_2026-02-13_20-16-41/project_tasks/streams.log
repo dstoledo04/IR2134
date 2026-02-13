@@ -1,0 +1,23 @@
+[0.594s] Invoking command in '/ws/src/project_tasks': PYTHONPATH=/ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_tasks build --build-base /ws/build/project_tasks/build install --record /ws/build/project_tasks/install.log --single-version-externally-managed install_data
+[0.734s] running egg_info
+[0.741s] writing ../../build/project_tasks/project_tasks.egg-info/PKG-INFO
+[0.742s] writing dependency_links to ../../build/project_tasks/project_tasks.egg-info/dependency_links.txt
+[0.742s] writing entry points to ../../build/project_tasks/project_tasks.egg-info/entry_points.txt
+[0.742s] writing requirements to ../../build/project_tasks/project_tasks.egg-info/requires.txt
+[0.742s] writing top-level names to ../../build/project_tasks/project_tasks.egg-info/top_level.txt
+[0.758s] reading manifest file '../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+[0.759s] writing manifest file '../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+[0.759s] running build
+[0.759s] running build_py
+[0.760s] running install
+[0.763s] running install_lib
+[0.773s] running install_data
+[0.773s] running install_egg_info
+[0.782s] removing '/ws/install/project_tasks/lib/python3.12/site-packages/project_tasks-0.0.0-py3.12.egg-info' (and everything under it)
+[0.782s] Copying ../../build/project_tasks/project_tasks.egg-info to /ws/install/project_tasks/lib/python3.12/site-packages/project_tasks-0.0.0-py3.12.egg-info
+[0.782s] running install_scripts
+[0.851s] Installing dispatch_go_to script to /ws/install/project_tasks/lib/project_tasks
+[0.851s] Installing dispatch_loop script to /ws/install/project_tasks/lib/project_tasks
+[0.852s] Installing dispatch_patrol script to /ws/install/project_tasks/lib/project_tasks
+[0.852s] writing list of installed files to '/ws/build/project_tasks/install.log'
+[0.879s] Invoked command in '/ws/src/project_tasks' returned '0': PYTHONPATH=/ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_tasks build --build-base /ws/build/project_tasks/build install --record /ws/build/project_tasks/install.log --single-version-externally-managed install_data

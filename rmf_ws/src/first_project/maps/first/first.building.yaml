@@ -17,7 +17,7 @@ graphs:
 levels:
   L1:
     doors:
-      - [5, 6, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [5, 6, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door1"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
     drawing:
       filename: L1.png
     elevation: 0
@@ -95,8 +95,8 @@ lifts:
     highest_floor: L2
     initial_floor_name: L1
     level_doors:
-      L1: [name]
-      L2: [name]
+      L1: [bajo]
+      L2: [alto]
     lowest_floor: L1
     plugins: true
     reference_floor_name: L1

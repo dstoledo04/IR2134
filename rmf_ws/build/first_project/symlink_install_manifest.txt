@@ -1,5 +1,6 @@
 /ws/install/first_project/share/first_project/launch/first.launch.xml
 /ws/install/first_project/share/first_project/launch/simulation.launch.xml
+/ws/install/first_project/share/first_project/maps/first/0.yaml
 /ws/install/first_project/share/first_project/maps/first/L1.png
 /ws/install/first_project/share/first_project/maps/first/L2.png
 /ws/install/first_project/share/first_project/maps/first/first.building.yaml

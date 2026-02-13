@@ -1,0 +1,4 @@
+source;share/kioto/local_setup.bash
+source;share/kioto/local_setup.dsv
+source;share/kioto/local_setup.sh
+source;share/kioto/local_setup.zsh

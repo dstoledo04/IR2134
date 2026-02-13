@@ -3,7 +3,6 @@
   <arg name="use_sim_time" default="true"/>
   <arg name="failover_mode" default="false"/>
 
-  <!-- Building map server -->
   <node pkg="rmf_building_map_tools" exec="building_map_server"
         args="$(find-pkg-share first_project)/maps/first/first.building.yaml">
     <param name="use_sim_time" value="$(var use_sim_time)"/>
@@ -11,38 +10,30 @@
   <node pkg="rmf_traffic_ros2" exec="rmf_traffic_schedule" output="screen">
     <param name="use_sim_time" value="$(var use_sim_time)"/>
   </node>
-  <!-- Blockade Moderator -->
   <node pkg="rmf_traffic_ros2" exec="rmf_traffic_blockade" output="screen">
     <param name="use_sim_time" value="$(var use_sim_time)"/>
   </node>
 
-  <!-- Door Supervisor -->
   <node pkg="rmf_fleet_adapter" exec="door_supervisor" output="screen">
     <param name="use_sim_time" value="$(var use_sim_time)"/>
   </node>
 
-  <!-- Lift Supervisor -->
   <node pkg="rmf_fleet_adapter" exec="lift_supervisor" output="screen">
     <param name="use_sim_time" value="$(var use_sim_time)"/>
   </node>
 
-  <!-- Task Dispatcher -->
   <node pkg="rmf_task_ros2" exec="rmf_task_dispatcher" output="screen">
     <param name="use_sim_time" value="$(var use_sim_time)"/>
     <param name="bidding_time_window" value="2.0"/>
   </node>
 
-
-  <!-- RViz (RMF visualization) -->
   <include file="$(find-pkg-share rmf_visualization)/visualization.launch.xml">
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
     <arg name="map_name" value="L1"/>
     <arg name="viz_config_file"
-       value="$(find-pkg-share first_project)/rviz/my_rviz_config.rviz"/>
+       value="$(find-pkg-share first_project)/rviz/configu.rviz"/>
   </include>
 
-
-  <!-- Simulation -->
   <include file="$(find-pkg-share first_project)/launch/simulation.launch.xml">
     <arg name="map_name" value="first"/>
   </include>
