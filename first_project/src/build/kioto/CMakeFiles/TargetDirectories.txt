@@ -1,9 +1,0 @@
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/uninstall.dir
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/kioto_uninstall.dir
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/test.dir
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/edit_cache.dir
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/rebuild_cache.dir
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/list_install_components.dir
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/install.dir
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/install/local.dir
-/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto/CMakeFiles/install/strip.dir

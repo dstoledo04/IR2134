@@ -1,1 +1,0 @@
-Invoking command in '/home/david/Documentos/GitHub/IR2134/first_project/src/build/kioto': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/david/Escritorio/ros2_ws/src/install/droneando /usr/bin/cmake /home/david/Documentos/GitHub/IR2134/first_project/src/kioto -DCMAKE_INSTALL_PREFIX=/home/david/Documentos/GitHub/IR2134/first_project/src/install/kioto
