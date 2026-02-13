@@ -1,26 +1,47 @@
 cmake_minimum_required(VERSION 3.8)
 project(first_project)
 
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
-
-# find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
 
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
-  set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
+# Instala tus fuentes (YAML+PNG+launch)
+install(DIRECTORY launch maps config
+  DESTINATION share/${PROJECT_NAME}
+)
+
+# --- Generación automática del mundo Gazebo y assets ---
+# Rutas
+set(map_path ${CMAKE_CURRENT_SOURCE_DIR}/maps/first/first.building.yaml)
+
+# Donde se generará en build/
+set(output_dir ${CMAKE_CURRENT_BINARY_DIR}/maps/first_ign)
+set(output_world_path ${output_dir}/first.world)
+set(output_model_dir ${output_dir}/models)
+
+# (opcional) cache de modelos Fuel
+add_custom_target(
+  update_model_cache
+  COMMAND ros2 run rmf_building_map_tools building_map_model_downloader
+)
+
+# Genera world + descarga modelos a output_model_dir
+add_custom_command(
+  OUTPUT ${output_world_path}
+  COMMAND ros2 run rmf_building_map_tools building_map_generator gazebo
+          ${map_path} ${output_world_path} ${output_model_dir}
+  DEPENDS ${map_path}
+)
+
+add_custom_target(generate_first_world ALL
+  DEPENDS ${output_world_path}
+)
+
+add_dependencies(generate_first_world update_model_cache)
+
+# Instala lo generado
+install(
+  DIRECTORY ${output_dir}
+  DESTINATION share/${PROJECT_NAME}/maps
+)
+# -----------------------------------------------
 
 ament_package()
