@@ -1,9 +1,0 @@
-/ws/build/kioto/CMakeFiles/uninstall.dir
-/ws/build/kioto/CMakeFiles/kioto_uninstall.dir
-/ws/build/kioto/CMakeFiles/test.dir
-/ws/build/kioto/CMakeFiles/edit_cache.dir
-/ws/build/kioto/CMakeFiles/rebuild_cache.dir
-/ws/build/kioto/CMakeFiles/list_install_components.dir
-/ws/build/kioto/CMakeFiles/install.dir
-/ws/build/kioto/CMakeFiles/install/local.dir
-/ws/build/kioto/CMakeFiles/install/strip.dir

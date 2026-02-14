@@ -1,4 +1,0 @@
-[console_scripts]
-dispatch_go_to = project_tasks.dispatch_go_to_place:main
-dispatch_loop = project_tasks.dispatch_loop:main
-dispatch_patrol = project_tasks.dispatch_patrol:main
