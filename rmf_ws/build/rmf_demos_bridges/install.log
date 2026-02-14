@@ -1,0 +1,17 @@
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/__init__.py
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/fleet_socketio_bridge.py
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/__pycache__/__init__.cpython-312.pyc
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/__pycache__/fleet_robotmanager_mqtt_bridge.cpython-312.pyc
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/__pycache__/fleet_socketio_bridge.cpython-312.pyc
+/ws/install/rmf_demos_bridges/share/ament_index/resource_index/packages/rmf_demos_bridges
+/ws/install/rmf_demos_bridges/share/rmf_demos_bridges/package.xml
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.8.1-py3.12.egg-info/PKG-INFO
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.8.1-py3.12.egg-info/dependency_links.txt
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.8.1-py3.12.egg-info/top_level.txt
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.8.1-py3.12.egg-info/entry_points.txt
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.8.1-py3.12.egg-info/zip-safe
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.8.1-py3.12.egg-info/requires.txt
+/ws/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.8.1-py3.12.egg-info/SOURCES.txt
+/ws/install/rmf_demos_bridges/lib/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge
+/ws/install/rmf_demos_bridges/lib/rmf_demos_bridges/fleet_socketio_bridge

@@ -1,0 +1,41 @@
+[1.116s] Invoking command in '/ws/src/rmf_demos/rmf_demos_tasks': PYTHONPATH=/ws/src/build/rmf_demos_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/src/install/rmf_demos_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rmf_demos_tasks build --build-base /ws/src/build/rmf_demos_tasks/build install --record /ws/src/build/rmf_demos_tasks/install.log --single-version-externally-managed install_data
+[1.272s] running egg_info
+[1.280s] writing ../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/PKG-INFO
+[1.280s] writing dependency_links to ../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/dependency_links.txt
+[1.280s] writing entry points to ../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/entry_points.txt
+[1.280s] writing requirements to ../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/requires.txt
+[1.280s] writing top-level names to ../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/top_level.txt
+[1.297s] reading manifest file '../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[1.298s] writing manifest file '../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[1.298s] running build
+[1.298s] running build_py
+[1.299s] running install
+[1.303s] running install_lib
+[1.313s] running install_data
+[1.313s] running install_egg_info
+[1.322s] removing '/ws/src/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks-2.8.1-py3.12.egg-info' (and everything under it)
+[1.322s] Copying ../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info to /ws/src/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks-2.8.1-py3.12.egg-info
+[1.323s] running install_scripts
+[1.399s] Installing api_request script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.399s] Installing cancel_robot_task script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.399s] Installing cancel_task script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.399s] Installing dispatch_action script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.399s] Installing dispatch_cart_delivery script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.399s] Installing dispatch_clean script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.399s] Installing dispatch_delivery script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.399s] Installing dispatch_dynamic_event script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing dispatch_go_to_place script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing dispatch_json script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing dispatch_loop script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing dispatch_patrol script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing dispatch_teleop script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing dynamic_event_client script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing emergency_signal script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing get_robot_location script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing mock_docker script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing request_lift script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing request_loop script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing teleop_robot script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] Installing wait_for_task_complete script to /ws/src/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[1.400s] writing list of installed files to '/ws/src/build/rmf_demos_tasks/install.log'
+[1.427s] Invoked command in '/ws/src/rmf_demos/rmf_demos_tasks' returned '0': PYTHONPATH=/ws/src/build/rmf_demos_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/src/install/rmf_demos_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rmf_demos_tasks build --build-base /ws/src/build/rmf_demos_tasks/build install --record /ws/src/build/rmf_demos_tasks/install.log --single-version-externally-managed install_data
