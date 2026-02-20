@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+
+<launch>
+
+  <arg name="use_sim_time" default="false"/>
+
+  <!-- RMF Core -->
+  <include file="$(find-pkg-share large_project)/config/launch/common.launch.xml">
+    <arg name="use_sim_time" value="$(var use_sim_time)"/>
+    <arg name="viz_config_file"
+       value="$(find-pkg-share large_project)/rviz_config/my_rviz_config.rviz"/>
+    <arg name="config_file"
+         value="$(find-pkg-share large_project)/maps/test1/test1.building.yaml"/>
+  </include>
+
+  <!-- Fleet Adapter -->
+  <include file="$(find-pkg-share project_fleet_adapter)/launch/fleet_adapter.launch.xml">
+    <arg name="use_sim_time" value="$(var use_sim_time)"/>
+    <arg name="nav_graph_file"
+         value="$(find-pkg-share large_project)/maps/test1/nav_graphs/1.yaml"/>
+    <arg name="config_file"
+         value="$(find-pkg-share large_project)/config/test1/tinyRobot_config.yaml"/>
+  </include>
+
+</launch>
+

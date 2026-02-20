@@ -1,0 +1,4 @@
+source;share/large_project/local_setup.bash
+source;share/large_project/local_setup.dsv
+source;share/large_project/local_setup.sh
+source;share/large_project/local_setup.zsh

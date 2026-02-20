@@ -1,0 +1,5 @@
+<launch>
+
+  <include file="$(find-pkg-share large_project)/config/common.xml"/>
+
+</launch>

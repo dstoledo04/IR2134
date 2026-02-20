@@ -1,0 +1,29 @@
+[1.313s] Invoking command in '/ws/build/rmf_demos_fleet_adapter': PYTHONPATH=/ws/build/rmf_demos_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/rmf_demos_fleet_adapter/build --no-deps symlink_data
+[1.543s] running develop
+[1.689s] running egg_info
+[1.690s] creating rmf_demos_fleet_adapter.egg-info
+[1.703s] writing rmf_demos_fleet_adapter.egg-info/PKG-INFO
+[1.703s] writing dependency_links to rmf_demos_fleet_adapter.egg-info/dependency_links.txt
+[1.703s] writing entry points to rmf_demos_fleet_adapter.egg-info/entry_points.txt
+[1.703s] writing requirements to rmf_demos_fleet_adapter.egg-info/requires.txt
+[1.703s] writing top-level names to rmf_demos_fleet_adapter.egg-info/top_level.txt
+[1.703s] writing manifest file 'rmf_demos_fleet_adapter.egg-info/SOURCES.txt'
+[1.725s] reading manifest file 'rmf_demos_fleet_adapter.egg-info/SOURCES.txt'
+[1.726s] writing manifest file 'rmf_demos_fleet_adapter.egg-info/SOURCES.txt'
+[1.737s] running build_ext
+[1.738s] Creating /ws/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages/rmf-demos-fleet-adapter.egg-link (link to .)
+[1.738s] Installing fleet_adapter script to /ws/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[1.738s] Installing fleet_manager script to /ws/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[1.738s] Installing manage_lane script to /ws/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[1.738s] 
+[1.738s] Installed /ws/build/rmf_demos_fleet_adapter
+[1.738s] running symlink_data
+[1.739s] creating /ws/install/rmf_demos_fleet_adapter/share/ament_index
+[1.739s] creating /ws/install/rmf_demos_fleet_adapter/share/ament_index/resource_index
+[1.739s] creating /ws/install/rmf_demos_fleet_adapter/share/ament_index/resource_index/packages
+[1.739s] symbolically linking /ws/build/rmf_demos_fleet_adapter/resource/rmf_demos_fleet_adapter -> /ws/install/rmf_demos_fleet_adapter/share/ament_index/resource_index/packages
+[1.739s] symbolically linking /ws/build/rmf_demos_fleet_adapter/package.xml -> /ws/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter
+[1.739s] symbolically linking /ws/build/rmf_demos_fleet_adapter/config.yaml -> /ws/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter
+[1.739s] creating /ws/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/launch
+[1.739s] symbolically linking /ws/build/rmf_demos_fleet_adapter/launch/fleet_adapter.launch.xml -> /ws/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/launch
+[1.812s] Invoked command in '/ws/build/rmf_demos_fleet_adapter' returned '0': PYTHONPATH=/ws/build/rmf_demos_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/rmf_demos_fleet_adapter/build --no-deps symlink_data

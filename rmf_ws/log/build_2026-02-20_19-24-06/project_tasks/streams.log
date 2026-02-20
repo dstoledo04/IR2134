@@ -1,0 +1,26 @@
+[1.286s] Invoking command in '/ws/build/project_tasks': PYTHONPATH=/ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/project_tasks/build --no-deps symlink_data
+[1.503s] running develop
+[1.639s] running egg_info
+[1.639s] creating project_tasks.egg-info
+[1.655s] writing project_tasks.egg-info/PKG-INFO
+[1.655s] writing dependency_links to project_tasks.egg-info/dependency_links.txt
+[1.655s] writing entry points to project_tasks.egg-info/entry_points.txt
+[1.655s] writing requirements to project_tasks.egg-info/requires.txt
+[1.655s] writing top-level names to project_tasks.egg-info/top_level.txt
+[1.655s] writing manifest file 'project_tasks.egg-info/SOURCES.txt'
+[1.685s] reading manifest file 'project_tasks.egg-info/SOURCES.txt'
+[1.686s] writing manifest file 'project_tasks.egg-info/SOURCES.txt'
+[1.699s] running build_ext
+[1.699s] Creating /ws/install/project_tasks/lib/python3.12/site-packages/project-tasks.egg-link (link to .)
+[1.699s] Installing dispatch_go_to script to /ws/install/project_tasks/lib/project_tasks
+[1.699s] Installing dispatch_loop script to /ws/install/project_tasks/lib/project_tasks
+[1.699s] Installing dispatch_patrol script to /ws/install/project_tasks/lib/project_tasks
+[1.700s] 
+[1.700s] Installed /ws/build/project_tasks
+[1.700s] running symlink_data
+[1.700s] creating /ws/install/project_tasks/share/ament_index
+[1.700s] creating /ws/install/project_tasks/share/ament_index/resource_index
+[1.700s] creating /ws/install/project_tasks/share/ament_index/resource_index/packages
+[1.700s] symbolically linking /ws/build/project_tasks/resource/project_tasks -> /ws/install/project_tasks/share/ament_index/resource_index/packages
+[1.700s] symbolically linking /ws/build/project_tasks/package.xml -> /ws/install/project_tasks/share/project_tasks
+[1.761s] Invoked command in '/ws/build/project_tasks' returned '0': PYTHONPATH=/ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/project_tasks/build --no-deps symlink_data

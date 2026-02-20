@@ -4,3 +4,6 @@ source;share/project_fleet_adapter/hook/pythonpath.sh
 source;share/project_fleet_adapter/hook/ament_prefix_path.ps1
 source;share/project_fleet_adapter/hook/ament_prefix_path.dsv
 source;share/project_fleet_adapter/hook/ament_prefix_path.sh
+source;../../build/project_fleet_adapter/share/project_fleet_adapter/hook/pythonpath_develop.ps1
+source;../../build/project_fleet_adapter/share/project_fleet_adapter/hook/pythonpath_develop.dsv
+source;../../build/project_fleet_adapter/share/project_fleet_adapter/hook/pythonpath_develop.sh

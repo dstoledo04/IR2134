@@ -1,4 +1,3 @@
-README.md
 config.yaml
 package.xml
 setup.cfg
@@ -16,6 +15,13 @@ project_fleet_adapter/__init__.py
 project_fleet_adapter/fleet_adapter.py
 project_fleet_adapter/fleet_manager.py
 project_fleet_adapter/manage_lane.py
+project_fleet_adapter.egg-info/PKG-INFO
+project_fleet_adapter.egg-info/SOURCES.txt
+project_fleet_adapter.egg-info/dependency_links.txt
+project_fleet_adapter.egg-info/entry_points.txt
+project_fleet_adapter.egg-info/requires.txt
+project_fleet_adapter.egg-info/top_level.txt
+project_fleet_adapter.egg-info/zip-safe
 resource/project_fleet_adapter
 test/__init__.py
 test/test_copyright.py

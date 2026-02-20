@@ -1,0 +1,9 @@
+/ws/build/large_project/CMakeFiles/uninstall.dir
+/ws/build/large_project/CMakeFiles/large_project_uninstall.dir
+/ws/build/large_project/CMakeFiles/test.dir
+/ws/build/large_project/CMakeFiles/edit_cache.dir
+/ws/build/large_project/CMakeFiles/rebuild_cache.dir
+/ws/build/large_project/CMakeFiles/list_install_components.dir
+/ws/build/large_project/CMakeFiles/install.dir
+/ws/build/large_project/CMakeFiles/install/local.dir
+/ws/build/large_project/CMakeFiles/install/strip.dir

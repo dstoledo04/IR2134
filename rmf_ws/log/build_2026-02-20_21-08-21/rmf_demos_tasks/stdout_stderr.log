@@ -1,0 +1,37 @@
+running develop
+running egg_info
+writing rmf_demos_tasks.egg-info/PKG-INFO
+writing dependency_links to rmf_demos_tasks.egg-info/dependency_links.txt
+writing entry points to rmf_demos_tasks.egg-info/entry_points.txt
+writing requirements to rmf_demos_tasks.egg-info/requires.txt
+writing top-level names to rmf_demos_tasks.egg-info/top_level.txt
+reading manifest file 'rmf_demos_tasks.egg-info/SOURCES.txt'
+writing manifest file 'rmf_demos_tasks.egg-info/SOURCES.txt'
+running build_ext
+Creating /ws/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf-demos-tasks.egg-link (link to .)
+Installing api_request script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing cancel_robot_task script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing cancel_task script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_action script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_cart_delivery script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_clean script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_delivery script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_dynamic_event script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_go_to_place script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_json script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_loop script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_patrol script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dispatch_teleop script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing dynamic_event_client script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing emergency_signal script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing get_robot_location script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing mock_docker script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing request_lift script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing request_loop script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing teleop_robot script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+Installing wait_for_task_complete script to /ws/install/rmf_demos_tasks/lib/rmf_demos_tasks
+
+Installed /ws/build/rmf_demos_tasks
+running symlink_data
+symbolically linking /ws/build/rmf_demos_tasks/resource/rmf_demos_tasks -> /ws/install/rmf_demos_tasks/share/ament_index/resource_index/packages
+symbolically linking /ws/build/rmf_demos_tasks/package.xml -> /ws/install/rmf_demos_tasks/share/rmf_demos_tasks

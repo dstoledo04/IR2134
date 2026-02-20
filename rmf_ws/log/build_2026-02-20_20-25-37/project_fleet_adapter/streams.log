@@ -1,0 +1,23 @@
+[1.383s] Invoking command in '/ws/src/project_fleet_adapter': PYTHONPATH=/ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_fleet_adapter build --build-base /ws/build/project_fleet_adapter/build install --record /ws/build/project_fleet_adapter/install.log --single-version-externally-managed install_data
+[1.638s] running egg_info
+[1.653s] writing ../../build/project_fleet_adapter/project_fleet_adapter.egg-info/PKG-INFO
+[1.653s] writing dependency_links to ../../build/project_fleet_adapter/project_fleet_adapter.egg-info/dependency_links.txt
+[1.654s] writing entry points to ../../build/project_fleet_adapter/project_fleet_adapter.egg-info/entry_points.txt
+[1.654s] writing requirements to ../../build/project_fleet_adapter/project_fleet_adapter.egg-info/requires.txt
+[1.654s] writing top-level names to ../../build/project_fleet_adapter/project_fleet_adapter.egg-info/top_level.txt
+[1.687s] reading manifest file '../../build/project_fleet_adapter/project_fleet_adapter.egg-info/SOURCES.txt'
+[1.688s] writing manifest file '../../build/project_fleet_adapter/project_fleet_adapter.egg-info/SOURCES.txt'
+[1.688s] running build
+[1.688s] running build_py
+[1.689s] running install
+[1.696s] running install_lib
+[1.713s] running install_data
+[1.713s] running install_egg_info
+[1.732s] removing '/ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter-2.8.1-py3.12.egg-info' (and everything under it)
+[1.732s] Copying ../../build/project_fleet_adapter/project_fleet_adapter.egg-info to /ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter-2.8.1-py3.12.egg-info
+[1.733s] running install_scripts
+[1.847s] Installing fleet_adapter script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.847s] Installing fleet_manager script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.847s] Installing manage_lane script to /ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.847s] writing list of installed files to '/ws/build/project_fleet_adapter/install.log'
+[1.903s] Invoked command in '/ws/src/project_fleet_adapter' returned '0': PYTHONPATH=/ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_fleet_adapter build --build-base /ws/build/project_fleet_adapter/build install --record /ws/build/project_fleet_adapter/install.log --single-version-externally-managed install_data

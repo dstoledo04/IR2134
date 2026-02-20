@@ -1,17 +1,1 @@
-{
-    "category": "sequence",
-    "description": [
-        {
-            "category": "go_to_place",
-            "description": "kitchen"
-        },
-        {
-            "category": "go_to_place",
-            "description": "L2_master_suite"
-        },
-        {
-            "category": "go_to_place",
-            "description": "L3_master_suite"
-        }
-    ]
-}
+/ws/src/rmf_demos/rmf_demos/config/hotel/meals_to_master_suites.json

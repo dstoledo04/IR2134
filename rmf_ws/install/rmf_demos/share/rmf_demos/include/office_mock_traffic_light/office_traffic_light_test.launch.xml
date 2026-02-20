@@ -1,4 +1,1 @@
-<?xml version='1.0' ?>
-<launch>
-  <executable cmd="ros2 run rmf_demos_tasks request_loop -s supplies -f pantry -r tinyRobot2 -n 500" output="both"/>
-</launch>
+/ws/src/rmf_demos/rmf_demos/launch/include/office_mock_traffic_light/office_traffic_light_test.launch.xml
