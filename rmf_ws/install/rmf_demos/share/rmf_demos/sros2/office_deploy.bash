@@ -1,1 +1,0 @@
-/ws/src/rmf_demos/rmf_demos/sros2/office_deploy.bash
